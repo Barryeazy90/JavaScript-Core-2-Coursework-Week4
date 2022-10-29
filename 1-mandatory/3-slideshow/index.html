@@ -12,6 +12,13 @@
   </head>
   <body>
     <!-- Write your HTML in here -->
+    <h1>Cute cats slideshow</h1>
+    <img id="image" src="cats/cat0.jpg"></img>
+    <button onclick="autoPlay(-1)" id="autoback">Auto Back</button>
+    <button onclick="slideChange(-1)" id="backbtn">Back</button>
+    <button onclick="autoPlay(0)" id="stopbtn">Stop</button>
+    <button onclick="slideChange(1)" id="nextbtn">Forward</button>
+    <button onclick="autoPlay(1)" id="autonext">Auto Forward</button>
     <script src="slideshow.js"></script>
   </body>
 </html>

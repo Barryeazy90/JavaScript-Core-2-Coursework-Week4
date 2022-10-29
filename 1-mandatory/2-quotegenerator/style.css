@@ -1,1 +1,46 @@
 /** Write your CSS in here **/
+body {
+    display: flex;
+    justify-content: center;
+}
+
+#content {
+    background: orange;
+    border: 5px;
+    height: 35em;
+    width: 50em;
+    align-self: centre;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+#quoteArea {
+    background: whitesmoke;
+    height: 15em;
+    ;
+    width: 35em;
+    margin-top: 10%;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+#quoteButton {
+    background-color: orange;
+    height: 40px;
+    width: 100px;
+    border: none;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    border-radius: 5px;
+    float: right;
+    color: white;
+
+}
+
+p {
+    float: right;
+    color: rgb(190, 127, 19)
+}
