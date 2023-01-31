@@ -1,16 +1,3 @@
-// let divEl = document.querySelector(".centre");
-//   let h1Element = document.getElementById("timeRemaining");
-//  let inputVal = document.getElementById("alarmSet").value;
-
-//  let setAlarmButton = document.getElementById("set");
-// function setAlarm() {
-//   h1Element.innerText = `time Remaining:${inputVal}`
-// } 
-//   console.log(divEl);
-//    console.log(h1Element)
-// console.log(inputEl);
-// setAlarmButton.addEventListener("click", setAlarm)
-
 function setAlarm() {
   let inputValue = document.querySelector("#alarmSet");
   let remainder = document.querySelector("#timeRemaining");
@@ -33,6 +20,7 @@ function setAlarm() {
 function pauseAlarm() {
   audio.pause();
 }
+// Everything is done and in working order
 
 // DO NOT EDIT BELOW HERE
 
