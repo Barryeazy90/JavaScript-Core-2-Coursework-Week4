@@ -20,6 +20,7 @@ function setAlarm() {
 function pauseAlarm() {
   audio.pause();
 }
+// Everything is done and in working order
 
 // DO NOT EDIT BELOW HERE
 
